@@ -46,4 +46,4 @@ gho() {
     esac
 }
 
-compdef '_files -W ~/Projects/github' gh
+compdef '_files -W ~/Projects/github' gho
