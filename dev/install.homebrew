@@ -17,6 +17,7 @@ gradle-completion
 grex
 groovy
 hyperfine
+jenv
 kotlin
 maven
 node
