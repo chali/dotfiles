@@ -9,6 +9,7 @@ dpkg
 docker
 docker-compose
 docker-buildx
+fd
 fswatch
 gng
 git
@@ -18,7 +19,6 @@ gradle-completion
 grex
 groovy
 hyperfine
-jenv
 kotlin
 maven
 node
@@ -28,6 +28,7 @@ protobuf
 pstree
 python@3.9
 redis
+ripgrep
 ruby
 rust
 shellcheck
