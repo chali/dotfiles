@@ -22,8 +22,6 @@ hyperfine
 kotlin
 maven
 node
-pack
-postgresql@14
 protobuf
 pstree
 python@3.9
