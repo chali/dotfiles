@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 if [[ "Darwin" == "$(uname)" ]]; then
-	subl $@
+	code $@
 else
 	rmate $@
 fi
