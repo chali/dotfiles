@@ -12,6 +12,9 @@ adjust-cursor-thickness = 1
 shell-integration-features = no-cursor
 
 copy-on-select = clipboard
+window-inherit-working-directory = false
+tab-inherit-working-directory = false
+window-new-tab-position = end
 
 # the ssh shell integrations aren't effective enough
 term = xterm-256color
