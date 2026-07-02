@@ -1,0 +1,22 @@
+{
+  "theme": "modern-dark",
+  "packages": [
+    "npm:@llblab/pi-codex-usage",
+    "npm:pi-notify"
+  ],
+  "lastChangelogVersion": "0.80.3",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.5",
+  "defaultThinkingLevel": "xhigh",
+  "hideThinkingBlock": true,
+  "compaction": {
+    "enabled": false
+  },
+  "quietStartup": true,
+  "mcp": {
+    "interactiveTui": false
+  },
+  "terminal": {
+    "showTerminalProgress": true
+  }
+}

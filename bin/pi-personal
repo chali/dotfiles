@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+# Launch pi against a personal, non-Netflix agent config.
+#
+# PI_CODING_AGENT_DIR relocates pi's entire agent dir (settings, auth,
+# sessions) to ~/.pi-personal/agent, whose settings.json does NOT load
+# @netflix-internal/pi-agent. The Netflix provider control is therefore
+# never installed: the built-in pi providers (anthropic, openai, google,
+# ...) work natively and traffic uses YOUR personal API keys, not company
+# infrastructure.
+#
+# Provide credentials via env vars or `/login`, e.g.:
+#   export ANTHROPIC_API_KEY=sk-ant-...
+#
+# settings.json is tracked in dotfiles; auth.json + sessions stay local
+# to ~/.pi-personal/agent and are never committed.
+
+export PI_CODING_AGENT_DIR="$HOME/.pi-personal/agent"
+exec pi "$@"
