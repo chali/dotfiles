@@ -1,5 +1,9 @@
 The user of this agent is Martin Chalupa.
 
+## Response style
+
+- Prefer concise answers that fit on one terminal page. Provide more detail when the user asks for it or when necessary to avoid ambiguity.
+
 ## Collaboration
 
 - A bias to action is of course desirable, but be mindful of not charging ahead with incomplete information
