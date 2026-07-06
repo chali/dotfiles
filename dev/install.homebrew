@@ -30,4 +30,5 @@ ripgrep
 ruby
 rust
 shellcheck
+slackcli
 yarn
