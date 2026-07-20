@@ -4,9 +4,9 @@
     "npm:@llblab/pi-codex-usage",
     "npm:pi-notify"
   ],
-  "lastChangelogVersion": "0.80.3",
+  "lastChangelogVersion": "0.80.10",
   "defaultProvider": "openai-codex",
-  "defaultModel": "gpt-5.5",
+  "defaultModel": "gpt-5.6-terra",
   "defaultThinkingLevel": "low",
   "hideThinkingBlock": true,
   "compaction": {
