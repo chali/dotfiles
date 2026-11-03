@@ -17,4 +17,4 @@ set -eo pipefail
 # to ~/.pi-personal/agent and are never committed.
 
 export PI_CODING_AGENT_DIR="$HOME/.pi-personal/agent"
-exec pi "$@"
+exec "$HOME/.pi-personal/agent/pi/bin/pi" "$@"
