@@ -13,3 +13,4 @@ out/
 .claude/*.local.md
 .claude/scheduled_tasks.lock
 .pi/
+.agent-beach/
