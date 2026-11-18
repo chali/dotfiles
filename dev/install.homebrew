@@ -32,4 +32,5 @@ ruby
 rust
 shellcheck
 slackcli
+specify
 yarn
